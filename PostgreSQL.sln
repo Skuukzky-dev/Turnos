@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreSQL", "PostgreSQL.csproj", "{0E413304-4837-4762-BC24-40FE7F9EAC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRNS.Core.BO", "..\TRNS.Core.BO\TRNS.Core.BO.csproj", "{690FC7BB-8704-4F2C-923C-44CC4AB8144D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRNS.Core.BLL", "..\TRNS.Core.BLL\TRNS.Core.BLL.csproj", "{98DD98F1-F974-4EB5-967D-AD3065D0E4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRNS.Core.SEC", "..\TRNS.Core.SEC\TRNS.Core.SEC.csproj", "{DC32BCF3-23DA-4222-8A4D-FA12008C4E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRNS.Core.DAL", "..\TRNS.Core.DAL\TRNS.Core.DAL.csproj", "{BD28DC71-0893-4628-8405-EA03E1AFFC8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TRNS.Core", "TRNS.Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E413304-4837-4762-BC24-40FE7F9EAC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E413304-4837-4762-BC24-40FE7F9EAC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E413304-4837-4762-BC24-40FE7F9EAC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E413304-4837-4762-BC24-40FE7F9EAC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690FC7BB-8704-4F2C-923C-44CC4AB8144D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690FC7BB-8704-4F2C-923C-44CC4AB8144D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690FC7BB-8704-4F2C-923C-44CC4AB8144D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690FC7BB-8704-4F2C-923C-44CC4AB8144D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DD98F1-F974-4EB5-967D-AD3065D0E4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DD98F1-F974-4EB5-967D-AD3065D0E4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DD98F1-F974-4EB5-967D-AD3065D0E4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DD98F1-F974-4EB5-967D-AD3065D0E4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC32BCF3-23DA-4222-8A4D-FA12008C4E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC32BCF3-23DA-4222-8A4D-FA12008C4E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC32BCF3-23DA-4222-8A4D-FA12008C4E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC32BCF3-23DA-4222-8A4D-FA12008C4E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD28DC71-0893-4628-8405-EA03E1AFFC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD28DC71-0893-4628-8405-EA03E1AFFC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD28DC71-0893-4628-8405-EA03E1AFFC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD28DC71-0893-4628-8405-EA03E1AFFC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{690FC7BB-8704-4F2C-923C-44CC4AB8144D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{98DD98F1-F974-4EB5-967D-AD3065D0E4E4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DC32BCF3-23DA-4222-8A4D-FA12008C4E06} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BD28DC71-0893-4628-8405-EA03E1AFFC8B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B6A10D6-24BE-4FC1-B68F-02BE62AF7508}
+	EndGlobalSection
+EndGlobal
